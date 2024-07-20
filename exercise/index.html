@@ -13,11 +13,27 @@
 		/>
 	</head>
 	<body>
-		<canvas
-			id="canvas"
-			width="500"
-			height="500"
-		></canvas>
+		<div class="edit">
+			<canvas
+				id="canvas"
+				width="500"
+				height="500"
+			></canvas>
+			<div class="controls">
+				<input
+					type="color"
+					name=""
+					id="color"
+				/>
+				<input
+					type="range"
+					name=""
+					min="1"
+					max="10"
+					id="line-width"
+				/>
+			</div>
+		</div>
 		<script src="main.js"></script>
 	</body>
 </html>

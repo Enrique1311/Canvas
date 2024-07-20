@@ -1,0 +1,28 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+canvas {
+	border: 1px solid gray;
+}
+
+.edit {
+	padding: 2rem;
+	width: fit-content;
+	margin: auto;
+}
+
+.controls {
+	background-color: gray;
+	padding: 0.5rem 1rem;
+	display: flex;
+	justify-content: space-between;
+	gap: 1rem;
+}
+
+#range {
+	width: 100%;
+}
